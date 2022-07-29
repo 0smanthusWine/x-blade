@@ -1,0 +1,71 @@
+
+.technology{
+    margin-top: 126px;
+    align-items: center;
+}
+.technology__title{
+    color: var(--color-black);
+    margin-bottom: 32px;
+}
+.technology__content{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.technology__text{
+    color: #393939;
+}
+.technology__picture{
+    margin-top: 64px;
+    background-image: url('/img/technology.png');
+    background-repeat: no-repeat;
+    width: 1180px;
+    height: 560px;
+}
+.technology__picture-grid{
+    height: 100%; 
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-between;
+    gap: 488px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 32px;
+}
+.technology__picture-store{
+    display: flex;
+    gap: 16px;
+}
+.technology__picture-title{
+    color: var(--color-white);
+    margin-bottom: 12px;
+}
+.technology__picture-text{
+    color: var(--color-add);
+    bottom: 0;
+}
+.appStore{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+.appStore:hover{
+    content: url('/img/appstorehover.png');
+}
+.appStore:active{
+    content: url('/img/appstorefocus.png');
+}
+.googlePlay{
+    width: 135px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+.googlePlay:hover{
+    content: url('/img/googleplayhover.png');
+}
+.googlePlay:active{
+    content: url('/img/googleplayfocus.png');
+}

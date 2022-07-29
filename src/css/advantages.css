@@ -1,0 +1,24 @@
+.advantages{
+    margin-top: 126px;
+    align-items: center;
+}
+.advantages__title{
+    color: var(--color-black);
+}
+.advantages__card{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 64px;
+}
+.advantages__card-title{
+    text-align: center;
+    color: #393939;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.advantages__text{
+    text-align: center;
+    color: var(--color-add);
+    margin-top: 8px;
+}

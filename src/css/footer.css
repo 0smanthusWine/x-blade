@@ -1,0 +1,22 @@
+.footer{
+    background-color: var(--color-black);
+    border-top: 1px solid #393939;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+    padding-bottom: 49px;
+}
+.policy{
+    color: var(--color-white);
+}
+.text{
+    color: var(--color-add);
+}
+.development{
+    color: var(--color-white);
+}
+.picom{
+    color: var(--color-main);
+}

@@ -1,0 +1,42 @@
+.reviews{
+    margin-top: 126px;
+}
+.reviews__title{
+    color: var(--color-black);
+}
+.reviews__card-text{
+    margin-top: 128px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 22px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+.quotes__text{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 680px;
+}
+.reviews__people{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 300px;
+    gap: 12px;
+}
+.person{
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    user-select: none;
+}
+.person:hover{
+    border: 4px solid #181818;
+    border-radius: 100px;
+}
+.person:active{
+    border: 4px solid #9747FF;
+    border-radius: 100px;
+}

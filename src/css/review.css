@@ -1,0 +1,44 @@
+.review{
+    margin-top: 126px;
+    align-items: center;
+}
+.main{
+    display: grid;
+    align-content: center;
+}
+.review__content{
+    display: grid;
+    gap: 120px;
+    grid-template-columns: 1fr 1fr;
+}
+.review__title{
+    color: var(--color-black);
+}
+.review__text{
+    margin-top: 16px;
+    color: #393939;
+}
+.review__btn{
+    margin-top: 32px;
+}
+.review__video{
+    width: 680px;
+    height: 480px;
+    background-image: url('/img/video.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn__play{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    user-select: none;
+}
+.btn__play:hover{
+    content: url('/img/playhover.svg');
+}
+.btn__play:active{
+    content: url('/img/playpressed.svg');
+}

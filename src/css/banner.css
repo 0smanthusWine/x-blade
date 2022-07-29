@@ -1,0 +1,37 @@
+.banner{
+    position: relative;
+    background: var(--color-black);
+    position: relative;
+    height: 880px;
+    padding-top: 80px;
+}
+.banner__title{
+    font-weight: 500;
+    font-size: 200px;
+    line-height: 180px;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 80px;
+}
+.banner__img{
+    position: absolute;
+    width: var(--container-width);
+    bottom: 0;
+
+}
+.btn:hover {
+    background: var(--color-hover);
+    box-shadow: none;
+}
+
+.btn:active {
+    background: var(--color-pressed);
+    box-shadow: none;
+}
+.banner__btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 248px;
+    z-index: 10;
+}
