@@ -22,6 +22,8 @@
     border-bottom: 1px solid #393939;
     border-radius: 24px 24px 0px 0px;
     background-color: var(--color-black);
+    cursor: pointer;
+    user-select: none;
 }
 .inactive{
     border-radius: 24px;
@@ -32,8 +34,6 @@
 .arrow__btn{
     width: 24px;
     height: 24px;
-    cursor: pointer;
-    user-select: none;
 }
 .main__text{
     display: flex;
