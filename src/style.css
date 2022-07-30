@@ -9,6 +9,9 @@
     --color-hover: #D61F1F;
     --color-pressed: #B10E0E;
 }
+#app{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
 }
@@ -55,6 +58,7 @@ h6{
     max-width: var(--container-width);
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .btn{
     display: flex;

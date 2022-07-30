@@ -1,23 +1,30 @@
 .banner{
-    position: relative;
     background: var(--color-black);
     position: relative;
     height: 880px;
     padding-top: 80px;
+    overflow: hidden;
+}
+.banner .layout-container{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 .banner__title{
+    padding-top: 80px;
     font-weight: 500;
     font-size: 200px;
     line-height: 180px;
     text-align: center;
     color: var(--color-white);
-    margin-top: 80px;
+    max-width: 917px;
+    margin: 0;
 }
 .banner__img{
     position: absolute;
     width: var(--container-width);
     bottom: 0;
-
 }
 .btn:hover {
     background: var(--color-hover);
@@ -29,9 +36,6 @@
     box-shadow: none;
 }
 .banner__btn{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 248px;
-    z-index: 10;
+    margin-top: 56px;
+    z-index: 2;
 }
