@@ -9,6 +9,9 @@
     --color-hover: #D61F1F;
     --color-pressed: #B10E0E;
 }
+body::-webkit-scrollbar {
+    width: 0;
+}
 #app{
     overflow-x: hidden;
 }
@@ -22,13 +25,13 @@ h2{
     line-height: 72px;
     margin: 0;
 }
-.body1{
+.main-font{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
 }
-h5{
+p{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -48,7 +51,7 @@ h6{
     font-size: 18px;
     line-height: 32px;
 }
-.body2{
+.main-font2{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
