@@ -36,30 +36,99 @@
 .black{
     width: 32px;
     height: 32px;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    border: 2px solid #393939;
     cursor: pointer;
     user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.black__hover{
+    background-color: var(--color-black);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.black:hover{
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--color-black);
+    background: #393939;
+}
+.black:active{
+    border: 4px solid #9747FF;
+}
+.black:focus{
+    content: url('/img/iconCheck.svg');
+    background-color: var(--color-black);
+    padding: 8px 6px 7px 5px;
 }
 .sant{
     width: 32px;
     height: 32px;
+    border-radius: 50%;
+    background-color: #E8DFC8;
+    border: 2px solid #393939;
     cursor: pointer;
     user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.sant__hover{
+    background-color: #E8DFC8;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
 }
 .sant:hover{
-    content: url('/img/santhover.svg');
+    width: 32px;
+    height: 32px;
+    border: 2px solid #E8DFC8;
+    background: #393939;
 }
 .sant:active{
-    content: url('/img/santfocus.svg');
+    border: 4px solid #9747FF;
+}
+.sant:focus{
+    padding: 8px 6px 7px 5px;
+    content: url('/img/iconCheck1.svg');
+    background-color: #E8DFC8;
 }
 .khaki{
     width: 32px;
     height: 32px;
+    border-radius: 50%;
+    background-color: #6A7870;
+    border: 2px solid #393939;
     cursor: pointer;
     user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
+ .khaki__hover{
+    background-color: #6A7870;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+} 
 .khaki:hover{
-    content: url('/img/khakihover.svg');
+    width: 32px;
+    height: 32px;
+    border: 2px solid #6A7870;
+    background: #393939;
 }
 .khaki:active{
-    content: url('/img/khakifocus.svg');
+    border: 4px solid #9747FF;
+}
+.khaki:focus{
+    padding: 8px 6px 7px 5px;
+    content: url('/img/iconCheck.svg');
+    background-color: #6A7870;
 }

@@ -1,6 +1,7 @@
 .advantages{
     margin-top: 126px;
     align-items: center;
+    max-width: 1220px;
 }
 .advantages__title{
     color: var(--color-black);
