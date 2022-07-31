@@ -52,7 +52,7 @@
     height: 24px;
     border-radius: 50%;
 }
-.black:hover{
+/* .black:hover{
     width: 32px;
     height: 32px;
     border: 2px solid var(--color-black);
@@ -60,7 +60,7 @@
 }
 .black:active{
     border: 4px solid #9747FF;
-}
+} */
 .focus{
     content: url('/img/iconCheck.svg');
     background-color: var(--color-black);
