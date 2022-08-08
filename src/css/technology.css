@@ -2,7 +2,7 @@
 .technology{
     margin-top: 126px;
     align-items: center;
-    max-width: 1220px;
+    max-width: var(--container-width);
 }
 .technology__title{
     color: var(--color-black);

@@ -1,0 +1,132 @@
+@media screen and (max-width: 1220px){
+    :root{
+        --container-width: 718px;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__menu-ico{
+        display: block;
+    }
+    .header__contact{
+        gap: 62px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .benner{
+        height: 820px;
+    }
+    .banner__title{
+        font-size: 144px;
+        line-height: 128px;
+        padding-top: 120px;
+    }
+    .banner__img{
+        width: 1220px;
+        bottom: 0;
+        height: 460px;
+        top: 420px;
+    }
+    .banner__btn{
+        margin-top: 84px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .review{
+        margin-top: 96px;
+    }
+    .review__content{
+        display: grid;
+        gap: 48px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .review__video{
+        order: -1;
+    }
+    .review__main{
+        order: 1;
+    }
+}
+@media screen and (max-width: 1220px){
+    .advantages{
+        margin-top: 96px;
+    }
+    .advantages__card{
+        gap: 16px;
+        margin-top: 48px;
+        margin-right: -45px;
+    }
+    .advantages__card-picture{
+        width: 248px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .technology{
+        margin-top: 96px;
+    }
+    .technology__content{
+        gap: 16px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .technology__picture{
+        margin-top: 48px;
+        width: 100%;
+        background-size: contain;
+        height: 400px;
+        background-image: url('/img/technology2.png');
+    }
+    .technology__picture-grid{
+        height: 100%; 
+        gap: 133px;
+        margin-left: 40px;
+        margin-right: 32px;
+        padding-bottom: 32px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .reviews{
+        margin-top: 96px;
+    }
+    .reviews__card-text{
+        margin-top: 80px;
+        gap: 16px;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .quotes__text{
+        width: 100%;
+    }
+    .reviews__nav{
+        margin-top: 32px;
+        margin-left: 88px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .characteristics{
+        margin-top: 128px;
+    }
+    .list{
+        grid-template-columns: 208px 392px;
+        align-items: center;
+        padding: 24px 40px;
+        gap: 16px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .oders{
+        margin-top: 96px;
+    }
+    .orders__block-title{
+        margin-top: 96px;
+    }
+    .orders__block-buttons{
+        margin-top: 32px;
+    }
+    .orders__image{
+        margin-top: 96px;
+        padding-bottom: 96px;
+        width: var(--container-width);
+    }
+}

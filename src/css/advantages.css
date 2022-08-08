@@ -11,6 +11,7 @@
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 64px;
+    overflow-x: scroll;
 }
 .advantages__card-title{
     text-align: center;

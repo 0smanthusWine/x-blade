@@ -38,12 +38,18 @@
     line-height: 28px;
 }
 .header__contact{
-    color: var(--color-add);
     justify-self: end;
     display: flex;
     align-items: center;
-    column-gap: 8px;
+}
+.header__contact-number{
+    display: flex;
+    color: var(--color-add);
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    column-gap: 8px;
+}
+.header__menu-ico{
+    display: none;
 }

@@ -9,7 +9,7 @@
     --color-hover: #D61F1F;
     --color-pressed: #B10E0E;
 }
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0;
 }
 #app{
