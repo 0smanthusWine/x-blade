@@ -1,0 +1,122 @@
+@media screen and (max-width: 768px){
+    :root{
+        --container-width: 375px;
+    }
+    h2{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width: 768px){
+    .header{
+        height: 72px;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__menu-ico{
+        display: block;
+    }
+    .header__contact-number{
+        display: none;
+    }
+    .header__content{
+        max-width: 768px;
+    }
+}
+@media screen and (max-width: 768px){
+    .banner{
+        height: 600px;
+        padding-top: 72px;
+    }
+    .banner__title{
+        font-size: 64px;
+        line-height: 72px;
+        padding-top: 48px;
+    }
+    .banner__img{
+        content: url('/img/pictureMob.png');
+        width: auto;
+        top: 240px;
+        height: 280px;
+    }
+    .banner__btn{
+        margin-top: 24px;
+    }
+}
+@media screen and (max-width: 768px){
+    .review{
+        margin-top: 64px;
+    }
+    .review__content{
+        display: grid;
+        gap: 32.4px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .review__video{
+        order: -1;
+    }
+    .review__main{
+        order: 1;
+    }
+    .review__video{
+        width: 336px;
+        height: 240px;
+        background-size: contain;
+    }
+    .review__main-btn{
+        margin-top: 24px;
+        width: 100%;
+    }
+    .btn__play{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width: 768px){
+    .advantages{
+        margin-top: 64px;
+    }
+    .advantages__card{
+        gap: 16px;
+        margin-top: 32px;
+    }
+}
+@media screen and (max-width: 768px){
+    .technology{
+        margin-top: 63.6px;
+    }
+    .technology__content{
+        gap: 16px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .technology__picture-store{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .technology__picture-grid {
+        height: 100%;
+        gap: 0;
+        margin-left: 0;
+        margin-right: 201px;
+        padding-bottom: 32px;
+    }
+    .technology__picture-title{
+        display: none;
+    }
+    .technology__picture-text{
+        display: none;
+    }
+    .appStore{
+        width: 120px;
+        height: 40px;
+    }
+    .googlePlay{
+        width: 120px;
+        height: 40px;
+    }
+}
